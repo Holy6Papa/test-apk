@@ -1,0 +1,14 @@
+name: test_apk
+description: "Petite application de test pour fabriquer un APK Android et un .exe Windows avec GitHub Actions."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
